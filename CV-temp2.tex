@@ -1,0 +1,243 @@
+\documentclass[11pt]{article}
+
+\usepackage{fontspec} 
+\usepackage{hyperref, enumitem, longtable, amsmath, array}
+
+% --- Page layout settings ---
+\usepackage[left=1.0in, right=1.0in, bottom=1.0in, top=1.0in, headsep=0in, footskip=.5in]{geometry}
+
+% Set line spacing
+\renewcommand{\baselinestretch}{1.}
+
+% --- Page formatting settings ---
+\usepackage[dvipsnames]{xcolor}
+\hypersetup{colorlinks=true, linkcolor=Black, urlcolor=Blue}
+
+% Remove page numbering
+\pagenumbering{gobble}
+
+% Define settings for left-hand column in which dates are printed
+\newcolumntype{R}{>{\raggedright}p{1.5in}}
+
+% Define 'SectionTable' environment
+\newenvironment{SectionTable}[1]{
+  \renewcommand*{\arraystretch}{1.7}
+  \setlength{\tabcolsep}{2pt}
+  \begin{longtable}{p{0.17\columnwidth}p{0.83\columnwidth}} & #1 \\}
+  {\end{longtable}\vspace{-.3cm}}
+
+% -- counter for publications
+\newcounter{pubctr}
+\newcommand{\pub}{%
+  \refstepcounter{pubctr}%
+  \thepubctr
+}
+
+% --- Document starts here ---
+\begin{document}
+
+% --- Name and contact information ---
+{\raggedleft \bf \LARGE Rozhin Falahati}\hfill \textit{Curriculum Vitae}
+\vspace{-0.17in}
+\begin{center}
+\rule{\textwidth}{0.02in}
+\end{center}
+\vspace{-0.15in}
+\noindent Department of Civil and Environmental Engineering
+\hfill
+\href{mailto:rfalahat@ualberta.ca}{rfalahat@ualberta.ca}\\
+University of Alberta
+\hfill
+\href{https://linkedin.com/in/RozhinFalahati}{linkedin.com/in/RozhinFalahati}\\
+Edmonton, Alberta
+\hfill
+(+1) 825--889--5912\\
+Canada
+\hfill
+\href{https://rfalahat.github.io}{rfalahat.github.io}\\
+\hfill
+Updated: 30 November 2025\\
+\vspace{-0.4in}
+\begin{center}
+\rule{\textwidth}{0.02in}
+\end{center}
+\vspace{-0.5in}
+
+% --- Section: Research Interests ---
+\begin{SectionTable}{}
+\textsc{Research\newline Interests} 
+& Sustainable timber construction; green building design; permanent wood foundations; structural health monitoring.\\
+\end{SectionTable}
+\vspace{-0.5in}
+
+% --- Section: Education ---
+\begin{SectionTable}{}
+\textsc{Education} 
+& {\bf Master of Science in Structural Engineering}\hfill Sep 2025--Present\\
+& \href{https://www.ualberta.ca/en/index.html}{University of Alberta}, Edmonton, Canada\\
+& GPA: In progress\\[0.15cm]
+
+& {\bf Bachelor of Science in Civil Engineering}\hfill Sep 2020--Jun 2024\\
+& University of Tehran, Tehran, Iran\\
+& GPA: 16.54/20 (approx.\ 3.5/4)\\[0.15cm]
+
+& {\bf Diploma in Physics and Mathematics}\hfill Sep 2017--Jun 2020\\
+& Farzanegan 1 High School (NODET), Shiraz, Iran\\
+& GPA: 19.69/20 (4/4)\\
+\end{SectionTable}
+\vspace{-0.5in}
+
+% --- Section: Honors and Awards ---
+\begin{SectionTable}{}
+\textsc{Honors and\newline Awards}
+& \begin{itemize}[leftmargin=*, itemsep=3pt]
+    \item Merit-based admission to the MSc program in Environmental Engineering, University of Tehran (2023).\
+    \item Ranked 16\textsuperscript{th} among more than 100 students in the Civil Engineering Faculty, University of Tehran (2023).\
+    \item Ranked 1367\textsuperscript{th} among over 135{,}000 participants in the National University Entrance Exam (Konkur), Iran (2020).\
+\end{itemize}
+\end{SectionTable}
+\vspace{-0.5in}
+
+% --- Section: Research Experience ---
+\begin{SectionTable}{}
+\textsc{Research\newline Experience} 
+& {\bf Research Assistant}, GRAF, University of Alberta\hfill May 2025--Present\\
+& Supervisor: Dr.\ Hossein Daneshvar\\
+\vspace{-0.2in}
+& \begin{itemize}[leftmargin=*, itemsep=3pt]
+    \item Supporting research in civil and structural engineering with a focus on sustainable and environmental applications.\,[attached\_file:1]
+\end{itemize}\\
+\end{SectionTable}
+\vspace{-0.5in}
+
+% --- Section: Teaching Experience ---
+\begin{SectionTable}{}
+\textsc{Teaching\newline Experience} 
+& {\bf Teaching Assistant}, Building Information Modelling\hfill Sep 2024--Feb 2025\\
+& University of Tehran, Tehran, Iran\\
+& Instructor: Dr.\ Hosein Taghaddos\\
+\vspace{-0.2in}
+& \begin{itemize}[leftmargin=*, itemsep=3pt]
+    \item Supported delivery of a Building Information Modelling (BIM) course, including tutorials and student guidance.\,[attached\_file:1]
+    \item Assisted with assignment clarification, grading support, and course coordination.\,[attached\_file:1]
+\end{itemize}\\
+\end{SectionTable}
+\vspace{-0.5in}
+
+% --- Section: Professional Experience ---
+\begin{SectionTable}{}
+\textsc{Professional\newline Experience}
+& {\bf Survey CAD Drafter}, B.A.S.F. Drafting Services (Remote, California)\hfill 2021--2024\\
+\vspace{-0.2in}
+& \begin{itemize}[leftmargin=*, itemsep=3pt]
+    \item Transformed raw land survey data and field measurements into accurate CAD drawings and plans.\,[attached\_file:1]
+    \item Produced land survey maps, topographic maps, site plans, and boundary surveys.\,[attached\_file:1]
+\end{itemize}\\[0.15cm]
+
+& {\bf Freelance Content Writer}\hfill Sep 2024--Jan 2024\\
+\vspace{-0.2in}
+& \begin{itemize}[leftmargin=*, itemsep=3pt]
+    \item Wrote English-language blog posts and articles on topics such as digital marketing and Forex.\,[attached\_file:1]
+\end{itemize}\\[0.15cm]
+
+& {\bf Engineering Intern}, Pajoohesh Consulting Engineers\hfill Jul 2023--Sep 2023\\
+\vspace{-0.2in}
+& \begin{itemize}[leftmargin=*, itemsep=3pt]
+    \item Gained experience in subway station construction techniques, particularly the cut-and-cover method.\,[attached\_file:1]
+\end{itemize}\\
+\end{SectionTable}
+\vspace{-0.5in}
+
+% --- Section: Selected Projects ---
+\begin{SectionTable}{}
+\textsc{Selected\newline Projects}
+& {\bf Structural Design: Residential Steel Structure}\hfill Feb 2024--Jun 2024\\
+& University of Tehran\\
+\vspace{-0.2in}
+& \begin{itemize}[leftmargin=*, itemsep=3pt]
+    \item Designed a residential steel structure using ETABS and SAFE, including structural analysis and detailed design of beams, columns, and connections.\,[attached\_file:1]
+\end{itemize}\\[0.15cm]
+
+& {\bf Structural Design: 6-Story RC Residential Building}\hfill Sep 2023--Feb 2024\\
+& University of Tehran\\
+\vspace{-0.2in}
+& \begin{itemize}[leftmargin=*, itemsep=3pt]
+    \item Designed a six-story reinforced concrete residential building according to ACI 318-2019.\,[attached\_file:1]
+    \item Implemented a lateral load-resisting system and performed full structural analysis in ETABS and SAFE.\,[attached\_file:1]
+\end{itemize}\\[0.15cm]
+
+& {\bf Cost Estimation: 3-Story Building}\hfill Feb 2023--Jun 2023\\
+& University of Tehran\\
+\vspace{-0.2in}
+& \begin{itemize}[leftmargin=*, itemsep=3pt]
+    \item Conducted quantity takeoff, cost analysis, and budget estimation for a three-story building project.\,[attached\_file:1]
+\end{itemize}\\[0.15cm]
+
+& {\bf Truss Analysis with MATLAB}\hfill Sep 2022--Jan 2023\\
+& University of Tehran\\
+\vspace{-0.2in}
+& \begin{itemize}[leftmargin=*, itemsep=3pt]
+    \item Developed a truss model from input data and used the stiffness method in MATLAB to compute internal forces and deformations.\,[attached\_file:1]
+\end{itemize}\\[0.15cm]
+
+& {\bf Structural Analysis and Weight Optimization of a Bicycle Frame}\hfill Sep 2021--Jan 2022\\
+& University of Tehran\\
+\vspace{-0.2in}
+& \begin{itemize}[leftmargin=*, itemsep=3pt]
+    \item Performed static structural analysis of a bicycle frame and optimized its weight using MATLAB.\,[attached\_file:1]
+\end{itemize}\\
+\end{SectionTable}
+\vspace{-0.5in}
+
+% --- Section: Publications ---
+\begin{SectionTable}{}
+\textsc{Publications}
+& {\bf Journal and Conference Articles}\\
+& Falahati, R. ``Minimizing Embodied Energy in Steel Buildings: A Life Cycle Approach for Sustainable Design.'' Review article (first scientific article).\,[attached\_file:1]\\
+\end{SectionTable}
+\vspace{-0.5in}
+
+% --- Section: Skills ---
+\begin{SectionTable}{}
+\textsc{Skills}
+& \begin{itemize}[leftmargin=*, label={}, itemsep=3pt]
+    \item \textit{Engineering Software:} ETABS, ABAQUS, AutoCAD (2D \& 3D), Civil 3D, AutoCAD Land Development, Navisworks Manage.\,[attached\_file:1]
+    \item \textit{Programming:} HTML, CSS, MATLAB, Mathematica, Python.\,[attached\_file:1]
+    \item \textit{Productivity:} Microsoft Excel, Word, PowerPoint, Access.\,[attached\_file:1]
+    \item \textit{Soft Skills:} Leadership, teamwork, problem solving, creativity, strong motivation to learn new skills.\,[attached\_file:1]
+\end{itemize}
+\end{SectionTable}
+\vspace{-0.5in}
+
+% --- Section: Languages ---
+\begin{SectionTable}{}
+\textsc{Languages}
+& \begin{itemize}[leftmargin=*, label={}, itemsep=3pt]
+    \item Persian (Farsi): Native.\,[attached\_file:1]
+    \item English: IELTS band score 8.0 (L 8.5, R 8.5, W 7, S 7).\,[attached\_file:1]
+    \item German: Beginner level (A1).\,[attached\_file:1]
+\end{itemize}
+\end{SectionTable}
+\vspace{-0.5in}
+
+% --- Section: Service and Volunteering ---
+\begin{SectionTable}{}
+\textsc{Service and\newline Volunteering}
+& \begin{itemize}[leftmargin=*, itemsep=3pt]
+    \item Volunteer, Treasury and Activity Committee, 7th SGSC Conference (Feb 2025 / Feb 2026, confirm year).\,[attached\_file:1]
+    \item Participant, 9-hour workshop on review and reading of structural plans in civil engineering.\,[attached\_file:1]
+    \item Executive team member, National Conference on Water Quality Management and Water Consumption Management, University of Tehran, Faculty of Engineering, under the guidance of Dr.\ Masoud Tabesh.\,[attached\_file:1]
+\end{itemize}
+\end{SectionTable}
+\vspace{-0.5in}
+
+% --- Section: References ---
+\begin{SectionTable}{}
+\textsc{References}
+& Dr.\ Hossein Daneshvar, Assistant Professor, School of Civil and Environmental Engineering, University of Alberta\\
+& Relationship: Supervisor\\
+& Email: \href{mailto:daneshva@ualberta.ca}{daneshva@ualberta.ca}\,[attached\_file:1]\\
+\end{SectionTable}
+\vspace{-0.5in}
+
+\end{document}

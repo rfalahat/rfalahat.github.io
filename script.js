@@ -94,7 +94,7 @@ const observer = new IntersectionObserver((entries) => {
 }, observerOptions);
 
 // Observe elements for animation
-const animateElements = document.querySelectorAll('.project-card, .timeline-item, .skill-category');
+const animateElements = document.querySelectorAll('.project-card, .timeline-item, .skill-category, .experience-item, .honor-item, .publication-item, .language-item, .service-item, .thesis-card');
 animateElements.forEach(el => {
     el.style.opacity = '0';
     el.style.transform = 'translateY(20px)';
